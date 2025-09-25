@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #454040;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 30em;
+    height: 43em;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.display {
+    width: 100%;
+    height: 3em;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.keys {
+    width: 12em;
+    height: 17em;
+    margin: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.7em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    padding: 1em;
+    padding-left: 0em;
+    padding-right: 1.5em;
+    border-radius: 10px;
+}
+
+.keys button{
+    width: 2em;
+    height: 2em;
+    background-color: #565454;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 1em;
+    margin-right: -1em;
+    margin-left: 1em;
+    padding: 0em;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: -1em;
+
+}
+
+/* .keys .hidden {
+    display: none;
+} */
+
+.more-btn {
+  margin-top: -43em;
+  margin-left: 40em;
+}
+.more-btn button {
+    width: 3em;
+    height: 2em;
+    background-color: #d8cbcb;
+    color: #636060;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 1em;
+    /* margin-right: -1em; */
+    margin-left: 20em;
+    padding: 0em;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 4em;
+}
